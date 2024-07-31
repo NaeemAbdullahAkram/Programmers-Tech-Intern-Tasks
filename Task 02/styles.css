@@ -1,0 +1,236 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  /* Home Page */
+  .welcome {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .featured-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .featured-courses h2 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* About Page */
+  .about {
+    text-align: center;
+  }
+  
+  /* Courses Page */
+  .courses {
+    text-align: center;
+  }
+  
+  .course-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .course-item {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  
+  .course-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .course-item h3 {
+    margin-top: 10px;
+  }
+  
+  /* Contact Page */
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact form label {
+    margin-top: 10px;
+  }
+  
+  .contact form input,
+  .contact form textarea {
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact form button:hover {
+    background-color: #555;
+  }
+  
+  /* Login and Signup Pages */
+  .login form,
+  .signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login form label,
+  .signup form label {
+    margin-top: 10px;
+  }
+  
+  .login form input,
+  .signup form input {
+    width: 300px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login form button,
+  .signup form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .login form button:hover,
+  .signup form button:hover {
+    background-color: #555;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonials h2 {
+    text-align: center;
+  }
+  
+  .testimonial {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .testimonial p {
+    margin: 0;
+  }
+  
+  /* FAQ Section */
+  .faq {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .faq h2 {
+    text-align: center;
+  }
+  
+  .faq .question {
+    margin-top: 20px;
+  }
+  
+  .faq .question h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
